@@ -1,0 +1,211 @@
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#doc {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: none;
+    font-family: "Corbel", "Verdana", "Kalinga";
+    position: relative;
+}
+
+header {
+    background-image: url("assets/background.png");
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 80px;
+    text-align: left;
+    box-shadow: 0px 0px 30px -1px #000;
+    z-index: 2;
+}
+
+#name {
+    font-size: 40px;
+    font-family: "Impact", "Courier New", "Times New Roman";
+    color: lightgrey;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: -10px;
+    position: relative;
+    width: 270px;
+}
+
+#navigation {
+    background: none;
+    padding-bottom: 0px;
+    margin-left: 900px;
+    margin-top: -38px;
+    z-index: 100;
+}
+
+.fixed {
+    position: fixed;
+    top: 13px;
+    z-index: 100;
+}
+
+#navigation ul {
+    margin: 0px;
+    z-index: 100;
+    padding: 0px;
+}
+
+#navigation ul li {
+    list-style: none;
+    float: left;
+    padding-bottom: 1px;
+}
+
+#navigation ul li:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.menu_icon {
+    margin-bottom: 0px;
+    z-index: 100;
+}
+
+.content {
+    width: 900px;
+    font-size: 17px;
+    margin: auto;
+    text-align: justify;
+    background: none;
+}
+
+.section {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+#main_data {
+    background: none;
+}
+
+#main_data_content {
+    overflow: hidden;
+}
+
+#introduction {
+    width: 700px;
+    font-family: "Courier New", "Times New Roman";
+    margin-top: 10px;
+}
+
+#introduction p {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+#introduction h3 {
+    font-size: 16px;
+}
+
+#profile_photo {
+    z-index: 1;
+    position: absolute;
+    right: 120px;
+    top: 110px;
+    transform: rotate(5deg);
+    -web-kit-transform: rotate(5deg);
+    box-shadow: 10px 10px 30px;
+}
+
+#education, #hobby {
+    background-image: url("assets/background.png");
+    background-repeat: repeat;
+    box-shadow: inset 0px 0px 50px 10px;
+}
+
+#education h1, #education h2, #education h3, #hobby h1 {
+    color: antiquewhite;
+}
+
+#education_content, #hobby_content {
+    color: darkgray;
+}
+
+#experience {
+    background: none;
+}
+
+#experience h1, #experience h2, #experience h3 {
+    color: darkslategray;
+}
+
+#experience_content {
+    color: graytext;
+}
+
+footer {
+    background: none;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+
+#sign {
+    font-size: 15px;
+    color: #444444;
+    font-family: "Courier New", "Times New Roman";
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 900px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.icon {
+    overflow: hidden;
+    margin-bottom: -25px;
+    margin-right: 10px;
+}
+
+hr {
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
