@@ -1,4 +1,4 @@
-CV
+CV [HTML/CSS/jQuery]
 ==
 
-My CV web page
+This is a kind of CV web page, different from typical paper-cv.
